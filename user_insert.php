@@ -11,3 +11,4 @@ $stmt = $pdo->prepare($sql);
 $stmt->execute([$email,$pass]);
 
 header(header:"location:users.php");
+?>
